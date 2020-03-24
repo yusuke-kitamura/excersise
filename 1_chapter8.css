@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+main{
+	width: 960px;
+}
+
+.list{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.list-item p{
+	padding: 20px 20px;
+}
+
+.clearfix{
+	width: 960px;
+	height: 680px;
+	margin-bottom: 50px;
+}
+
+.box1{
+	width: 30%;
+	height: 200px;
+	color: orange;
+}
